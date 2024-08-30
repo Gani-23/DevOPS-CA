@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ignit-depl
+spec:
+  selector:
+    matchLabels:
+      app: ignit-depl
+  template:
+    metadata:
+      labels:
+        app: ignit-depl
+    spec:
+      containers:
+      - name: ignit-depl
+        image: eagleeye007/react-sample:latest
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 3000
