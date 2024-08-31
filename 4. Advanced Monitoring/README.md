@@ -26,9 +26,9 @@ Microservices architectures introduce complexity in monitoring and alerting due 
 ## Steps to reproduce 
 
 - **Step1** Dockerise MERN Application, Create service, deployment, namespace etc
-- **Step2** Helm, Grafana, Promethus and loki 
-- **Step3**
-- **Step4**
+- **Step2** Configure Helm, Grafana, Promethus and loki for MERN Application
+- **Step3** Configure Kubenetis file for our Application.
+- **Step4** Optimizing code & Improving Perfomance etc.
 
 
 ### Time Line
